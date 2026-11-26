@@ -1,0 +1,16 @@
+From: "Northstar IT Desk" <alerts@northstar.example>
+Reply-To: <help@account-check.example>
+Return-Path: <bounce@account-check.example>
+To: <employee@northstar.example>
+Date: Tue, 24 Nov 2026 14:10:00 +0000
+Message-ID: <case-001@account-check.example>
+Subject: Action required today
+Authentication-Results: mx.northstar.example;
+ spf=pass smtp.mailfrom=account-check.example;
+ dkim=none;
+ dmarc=fail header.from=northstar.example
+Content-Type: text/plain; charset=UTF-8
+
+Lab simulation. The message asks the recipient to verify their
+account before the end of the day using this sample link:
+https://account-check.example/verify

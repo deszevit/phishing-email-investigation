@@ -1,0 +1,16 @@
+From: "Northstar IT Desk" <alerts@northstar.example>
+Reply-To: <help@northstar.example>
+Return-Path: <bounce@northstar.example>
+To: <employee@northstar.example>
+Date: Tue, 24 Nov 2026 14:30:00 +0000
+Message-ID: <case-002@northstar.example>
+Subject: Scheduled maintenance notice
+Authentication-Results: mx.northstar.example;
+ spf=pass smtp.mailfrom=northstar.example;
+ dkim=pass header.d=northstar.example;
+ dmarc=pass header.from=northstar.example
+Content-Type: text/plain; charset=UTF-8
+
+Lab simulation. Maintenance starts at 22:00 UTC.
+No sign-in or other action is required.
+See https://status.northstar.example/maintenance for the schedule.
